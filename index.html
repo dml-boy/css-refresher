@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ProTradeX - Advanced Crypto Trading</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">ProTradeX</div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav class="nav">
+        <a href="#hero">Home</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#login">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Trade Smarter. Trade Faster.</h1>
+        <p>ProTradeX delivers a premium crypto trading platform with real-time analytics, lightning-fast execution, and professional tools.</p>
+        <a href="#pricing" class="btn btn-primary">Get Started</a>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg" alt="Crypto trading chart interface" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container features-container">
+      <h2 class="section-title">Why Choose ProTradeX?</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <h3>Live Market Data</h3>
+          <p>Stream real-time prices and trends from major crypto exchanges.</p>
+        </div>
+        <div class="feature">
+          <h3>Smart Trading Bots</h3>
+          <p>Automate strategies with bots that trade 24/7 on your behalf.</p>
+        </div>
+        <div class="feature">
+          <h3>Advanced Charting</h3>
+          <p>Leverage professional tools for in-depth technical analysis.</p>
+        </div>
+      </div>
+      <div class="chart-container">
+        <h3>Sample BTC Price Trend</h3>
+        <canvas id="cryptoChart" aria-label="Bitcoin price trend chart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta" id="cta">
+    <div class="container cta-box">
+      <h2>Take Control of Your Crypto Portfolio</h2>
+      <p>Join thousands of traders who trust ProTradeX every day.</p>
+      <a href="#login" class="btn btn-secondary">Create Free Account</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>© 2025 ProTradeX. All rights reserved. Image by <a href="https://www.pexels.com/@lucasmeneses/" target="_blank">Lukas</a> on Pexels.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+        <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
